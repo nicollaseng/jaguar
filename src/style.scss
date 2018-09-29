@@ -1,0 +1,23 @@
+$bg-colour: rgb(43, 38, 38);
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: $bg-colour;
+	color: white;
+	justify-content: center;
+	align-items: center;
+}
+
+// .container {
+// 	flex-direction: column;
+// 	align-items: center;
+// 	justify-content: space-between;
+// 	display: flex;
+// }
+
+.container {
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	display: flex;
+}

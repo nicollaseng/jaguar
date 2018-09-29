@@ -1,0 +1,12 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #2b2626;
+  color: white;
+  justify-content: center;
+  align-items: center; }
+
+.container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  display: flex; }
