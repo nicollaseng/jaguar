@@ -37,9 +37,7 @@
     "materialize-css": "^1.0.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-materialize": "^2.4.5",
-    "react-ui-cards": "^1.4.0",
-    "reactstrap": "^6.4.0",
+    "react-media": "^1.8.0",
     "vinyl-source-stream": "^1.1.0"
   }
 }

@@ -1,12 +1,18 @@
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   background-color: #2b2626;
   color: white;
   justify-content: center;
   align-items: center; }
 
-.container {
+.desktop {
   flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  display: flex; }
+
+.mobile {
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   display: flex; }

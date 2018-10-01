@@ -15,6 +15,11 @@ gulp.task('js', function () {
         .pipe(gulp.dest('dist'));
 });
 
+gulp.task('images', function () {
+    return gulp.src("./images/**/*.{gif,jpg,png,svg}")
+        .pipe(gulp.dest('./dist/images'));
+});
+
 gulp.task('js:watch', function () {
     gulp.watch('./src/**/*.js', ['js']);
 });
@@ -46,5 +51,5 @@ gulp.task('server:watch', function () {
 });
 
 gulp.task('default', function () {
-  gulp.start('sass', 'sass:watch', 'js', 'js:watch', 'server', 'server:watch');
+  gulp.start('sass', 'sass:watch', 'js','images', 'js:watch', 'server', 'server:watch');
 });
